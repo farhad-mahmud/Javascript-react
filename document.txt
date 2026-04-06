@@ -1,9 +1,11 @@
-<!DOCTYPE html>
 
-<html> 
-	<head>
+so .. 
+  <head>
+    // in this head portion.. the css code belongs.. 
 		<title> HTML CSS </title>
 		<style>
+         // css stays inside the style.. 
+         // it is used for coloring a button,icon, toggle etc..
 			.red-button{
 				background-color : red ; 
 				border : none ;
@@ -14,29 +16,29 @@
 				color : green ;
 			}
 		</style>
+    </head> 
 
-	</head>
+	<body>  
 
-	<body> 
-
+     // inside body .. the buttons belongs.. 
 		<button title = "good job" class = "red-button"
 		onclick=" 
-		  alert('rixon');
+		  alert('rixon'); // alert is js code..after clicking the button response..
 		"
 		>
-			click 
+			click me
 		</button>  
+        // finish of ("click me") button
+
+        // this is a paragraph..
 		<p>
 			this is a paragraph <button title = "good job" class = "yellow-button" > hey </button>
 		</p> 
 		<script> 
-		  // this is a comment ..
-			alert('we');
+        // java script code ..
+			//alert('welcome');
 			2+2 
 			console.log(2+ 2);
 			console.log('welcome to js');
 		</script>
 	</body>
-
-</html>
-										
