@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title> array_sort  </title>
+    </head>
+    <body>
+        <p id = "demo" >
+
+        </p>
+         <script> // javascript code.. 
+
+         const points = [40, 2 , 60 , 80 , 90 ];
+
+        // custom comparator.. 
+
+         points.sort(function(a,b){
+               return a- b ;
+         });
+
+         function min(points){
+              return Math.min.apply(null ,points);
+
+         }
+         console.log(min(points));
+
+         // max with with while loops
+
+         function max2 (points){
+                let len = points.length;
+                let max  = -Infinity ;
+                while(len --){
+                      if(points[len] > max){
+                            max = points[len] ;
+                      }
+
+                }
+                return max ;
+         }
+
+         console.log(max2(points));
+
+         </script>
+    </body>
+</html>

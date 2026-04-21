@@ -5,14 +5,26 @@
     </head>
     <body>
         <p id = "demo" >
+        <ul > fruit </ul>  
 
         </p>
          <script> // javascript code.. 
-         const cars = ["saabs" , "ferrari"];
+         const cars = ["saabs" , "ferrari" , "bmw", "ford"];
 
          document.getElementById("demo").innerHTML = cars ;
-        
-         console.log(typeof cars);
+         
+        //  for(i = 0 ; i< cars.length ;i++){
+        //         console.log(cars[i]);
+        //  }
+         function myFunction(value){
+              console.log(value);
+         }
+         // for each works like a loop .. in javascript .. 
+
+         cars.forEach(myFunction);
+
+         console.log("finished");
+         
          </script>
     </body>
 </html>
