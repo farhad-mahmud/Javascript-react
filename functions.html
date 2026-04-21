@@ -15,16 +15,29 @@
 
         functionOne();
         
+        // anonymous function.. 
         const function2 = function() {
-                  console.log('hello 2');
+                  console.log('this is a anonymous function');
 
          };
+         // arrow function.. 
 
+           const arrowFunction = () => {
+                console.log('this is arrow function') ;
+
+           }
+
+           arrowFunction();
            const arrowfunction = () => {
                console.log('this is arrow function');
            };
 
-           arrowfunction() ;
+           function sleep(name){
+               console.log( name + " is sleeping ") ;
+           }
+
+           sleep('jasim');
+           sleep('karim') ;
 
          </script>
     </body>
