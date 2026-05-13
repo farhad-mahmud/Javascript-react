@@ -22,7 +22,7 @@ const Increment = () =>{
                     </button>
 
                     <button id = "button" onClick={ 
-                      () => setCount(null)
+                      () => setCount(count - count )
                       }>
                       reset 
                     </button>
